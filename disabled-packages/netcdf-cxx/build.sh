@@ -6,3 +6,4 @@ TERMUX_PKG_VERSION=4.3.0
 TERMUX_PKG_SHA256=25da1c97d7a01bc4cee34121c32909872edd38404589c0427fefa1301743f18f
 TERMUX_PKG_SRCURL=https://github.com/Unidata/netcdf-cxx4/archive/v${TERMUX_PKG_VERSION}.tar.gz
 TERMUX_PKG_DEPENDS="libhdf5, libcurl, openssl, libnghttp2, netcdf-c"
+TERMUX_PKG_netcdf-cxx: mv to disabled packages
